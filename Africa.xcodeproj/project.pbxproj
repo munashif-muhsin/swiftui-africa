@@ -38,6 +38,8 @@
 		01FDC1312940BE460022AA33 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDC1302940BE460022AA33 /* AnimalGridItemView.swift */; };
 		01FDC1372940C3D90022AA33 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01FDC1362940C3D90022AA33 /* Stickers.xcassets */; };
 		01FDC13B2940C3D90022AA33 /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 01FDC1342940C3D80022AA33 /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		01FDC1412940C6300022AA33 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDC1402940C6300022AA33 /* CreditsView.swift */; };
+		01FDC1442940C7960022AA33 /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDC1432940C7960022AA33 /* CenterModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,8 @@
 		01FDC1342940C3D80022AA33 /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		01FDC1362940C3D90022AA33 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
 		01FDC1382940C3D90022AA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01FDC1402940C6300022AA33 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		01FDC1432940C7960022AA33 /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 		01CA103828BB6FAF0093FAE2 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				01FDC1422940C7880022AA33 /* Modifier */,
 				01981C90293775C500BD8D04 /* Utilities */,
 				01CA105B28BE85B60093FAE2 /* Extension */,
 				01CA105828BB85260093FAE2 /* Model */,
@@ -192,6 +197,7 @@
 				01981C95293780D900BD8D04 /* MapAnnotationView.swift */,
 				01981C97293784DB00BD8D04 /* MotionAnimationView.swift */,
 				01FDC1302940BE460022AA33 /* AnimalGridItemView.swift */,
+				01FDC1402940C6300022AA33 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,6 +228,14 @@
 				01FDC1382940C3D90022AA33 /* Info.plist */,
 			);
 			path = Stickers;
+			sourceTree = "<group>";
+		};
+		01FDC1422940C7880022AA33 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				01FDC1432940C7960022AA33 /* CenterModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,8 +360,10 @@
 				01FDC1312940BE460022AA33 /* AnimalGridItemView.swift in Sources */,
 				01B30E3928FD7223001FD5B9 /* InsetGalleryView.swift in Sources */,
 				0130AC9229095DD900E408CA /* VideoListItemView.swift in Sources */,
+				01FDC1412940C6300022AA33 /* CreditsView.swift in Sources */,
 				01CA105D28BE85C50093FAE2 /* CodableBundleExtension.swift in Sources */,
 				01981C98293784DB00BD8D04 /* MotionAnimationView.swift in Sources */,
+				01FDC1442940C7960022AA33 /* CenterModifier.swift in Sources */,
 				01B30E3728FD7137001FD5B9 /* HeadingView.swift in Sources */,
 				01981C8F293774FC00BD8D04 /* VideoPlayerView.swift in Sources */,
 			);
@@ -486,7 +502,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = 2SXY3Y3597;
+				DEVELOPMENT_TEAM = 4Z9A4XMP3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -516,7 +532,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Africa/Preview Content\"";
-				DEVELOPMENT_TEAM = 2SXY3Y3597;
+				DEVELOPMENT_TEAM = 4Z9A4XMP3Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Africa/Info.plist;
@@ -545,7 +561,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2SXY3Y3597;
+				DEVELOPMENT_TEAM = 4Z9A4XMP3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Africa;
@@ -566,7 +582,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2SXY3Y3597;
+				DEVELOPMENT_TEAM = 4Z9A4XMP3Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Stickers/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Africa;

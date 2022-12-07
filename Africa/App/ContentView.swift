@@ -58,6 +58,12 @@ struct ContentView: View {
                             }
                             
                         }
+                        HStack(alignment: .center) {
+                           
+                            
+                        }
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
